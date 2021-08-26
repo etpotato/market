@@ -1,0 +1,14 @@
+:root {
+  --shadow: hsl(0, 0%, 33%);
+}
+
+body {
+  display: grid;
+  font-family: "Roboto";
+}
+
+.hello {
+  color: red;
+  background-image: url("./img/icon.svg");
+  box-shadow: 0 0 10px 0 var(--shadow);
+}
